@@ -1,8 +1,12 @@
-﻿namespace FullStack.API.Models
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace FullStack.API.Models
 {
     public class Employee
     {
+        [NotNull]
         public Guid Id { get; set; }
+   
         public string Name { get; set; }
              public string Email{ get; set; }
         public long Phone{ get; set; }

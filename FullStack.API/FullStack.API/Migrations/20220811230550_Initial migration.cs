@@ -13,12 +13,12 @@ namespace FullStack.API.Migrations
                 name: "Employees",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Name = table.Column<string>(type: "varchar(255)", nullable: true),
+                    Email = table.Column<string>(type: "varchar(255)", nullable: true),
                     Phone = table.Column<long>(type: "bigint", nullable: false),
                     Salary = table.Column<long>(type: "bigint", nullable: false),
-                    Departement = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Departement = table.Column<string>(type: "varchar(255)", nullable: true)
                 },
                 constraints: table =>
                 {

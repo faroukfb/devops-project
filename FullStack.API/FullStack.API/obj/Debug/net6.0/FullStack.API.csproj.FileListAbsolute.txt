@@ -125,3 +125,7 @@ C:\Users\THINKBOOK\Desktop\devops-project\FullStack.API\FullStack.API\obj\Debug\
 C:\Users\THINKBOOK\Desktop\devops-project\FullStack.API\FullStack.API\obj\Debug\net6.0\FullStack.API.pdb
 C:\Users\THINKBOOK\Desktop\devops-project\FullStack.API\FullStack.API\obj\Debug\net6.0\FullStack.API.genruntimeconfig.cache
 C:\Users\THINKBOOK\Desktop\devops-project\FullStack.API\FullStack.API\obj\Debug\net6.0\ref\FullStack.API.dll
+C:\Users\THINKBOOK\Desktop\devops-project\FullStack.API\FullStack.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\THINKBOOK\Desktop\devops-project\FullStack.API\FullStack.API\bin\Debug\net6.0\Npgsql.dll
+C:\Users\THINKBOOK\Desktop\devops-project\FullStack.API\FullStack.API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\THINKBOOK\Desktop\devops-project\FullStack.API\FullStack.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
