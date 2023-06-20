@@ -9,7 +9,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class EmployeesService {
-baseApiUrl:string=environment.baseApiUrl;
+baseApiUrl: string ='https://localhost:5006';
+ 
   constructor(private Http:HttpClient) { }
   getAllEmployees( ):Observable<Employee[]>{
 return this.Http.get<Employee[]>(this.baseApiUrl +"/api/Employees");
